@@ -1,6 +1,6 @@
 ## This is a FORK!
 
-meant for private use on Firefox. I don't claim Ownership over this code and simply made it work / fixed smaller bugs for Firefox.
+made for my own personal use on Firefox. I don't claim Ownership over this code and simply made it work / fixed smaller bugs for Firefox.
 
 ## Simple Auto HD
 
