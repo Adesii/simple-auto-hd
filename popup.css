@@ -184,3 +184,10 @@ input.toggle:disabled + .switcher__indicator::after, input:disabled + .switcher_
 #info {
   color: #dcdc00;
 }
+
+.fork-notice{
+  color: #dc2c00;
+  font-size: 1.1em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
