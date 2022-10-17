@@ -1,10 +1,18 @@
 (function () {
+  document.addEventListener('yt-navigate-start', function (event) {
+    if (location.pathname === '/watch') {
+      setTimeout(() => {
+        toggleTheaterMode();
+        selectPreferredQuality();
+      }, 200)
+    }
+  });
   document.addEventListener('yt-navigate-finish', function (event) {
     if (location.pathname === '/watch') {
       setTimeout(() => {
         toggleTheaterMode();
         selectPreferredQuality();
-      }, 1000)
+      }, 200)
     }
   });
 
@@ -139,7 +147,7 @@
       function ReenableTooltipAfterDelay(tooltipelement, parent) {
         setTimeout(function () {
           parent.appendChild(tooltipelement);
-        }, 4000);
+        }, 3000);
 
       }
 
